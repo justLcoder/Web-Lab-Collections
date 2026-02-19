@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     initializeRow(rowsContainer.querySelector(".currency-row"));
 
-    function initializeRow(row) {
+function initializeRow(row) {
     const input = row.querySelector("input");
     const select = row.querySelector("select");
 
